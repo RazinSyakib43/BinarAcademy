@@ -1,0 +1,226 @@
+.body {
+  margin: 0px;
+} 
+
+.header{
+    background-color:#F1F3FF;
+  }
+
+.navbar-brand{
+  width: 110px;
+  height: 38px;
+  background-color: blue;
+}
+
+.nav-link{
+  color: #000;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; 
+  }
+
+.Mobil{
+padding-left: 100px;
+right: 100px;
+}
+
+.Mobil-h1 {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 54px */
+}
+
+.Mobil-p {
+  color: #000;
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+}
+
+.list-h3{
+  color: #000;
+  /* Heading/24/Bold */
+  font-family: Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+.list-p{
+  color: #000;
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+}
+.Deskripsi-Why-Us-h3{
+  color: #000;
+font-family: Helvetica;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+}
+
+.Deskripsi-Why-Us-p{
+  color: #000;
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+}
+
+.card-list-h4{
+  color: #000;
+  /* Title/16/Bold */
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+
+.card-list-p{
+  color: #000;
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+}
+
+.Pendapat-Testimoni{
+  color: #000;
+  text-align: center;
+}
+
+.Pendapat-Testimoni-3{
+  color: #000;
+  text-align: center;
+  /* Heading/24/Bold */
+  font-family: Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+
+.pendapat-Testimoni-p {
+  color: #000;
+  text-align: center;
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+}
+
+.Pertanyaan-h3{
+  color: #000;
+  /* Heading/24/Bold */
+  font-family: Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+
+.Pertanyaan.p {
+  color: #000;
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+}
+
+.list-pertanyaan{
+  color: #000;
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+}
+
+.footer{
+  color: #000;
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+}
+
+.button1{
+  right: 100px;
+}
+
+.Pertanyaan{
+width: 80%;
+}
+.accordion-header{
+  border-radius: 4px;
+  border: 1px solid #D4D4D4;
+  background: #FFF;
+  width: 668px;
+  height: 3.5rem;
+  margin: 1rem 0rem;
+}
+
+.carouselExample{
+  border-radius: 8px;
+  background: #F1F3FF;
+  /* Shadow/Low */
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+  width: 619px;
+  height: 270px;
+  flex-shrink: 0;
+}
+/* CSS Responsif */
+/* CSS Responsif */
+@media screen and (max-width: 768px) {
+  /* Navbar */
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  /* Button Register */
+  .btn {
+    margin-top: 10px;
+  }
+
+  /* Container Artikel dan GambarMobil */
+  .d-flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Margin untuk artikel dan gambar pada layar kecil */
+  .Mobil {
+    margin-bottom: 20px;
+  }
+
+  /* Margin atas untuk gambar */
+  .GambarMobil {
+    margin-top: 20px;
+  }
+}
