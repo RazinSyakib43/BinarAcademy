@@ -1,10 +1,13 @@
 .body {
   margin: 0px;
-  padding: 0;
 }
 
 .header {
   background-color: #F1F3FF;
+}
+
+.margin-section{
+  margin-top: 100px;
 }
 
 .navbar-brand {
@@ -22,10 +25,10 @@
   line-height: 20px;
 }
 
-
 .Mobil {
-  /* padding-left: 100px; */
+  padding-left: 100px;
   right: 100px;
+  flex-basis: 50%;
 }
 
 .Mobil-h1 {
@@ -47,6 +50,23 @@
   font-weight: 300;
   line-height: 20px;
   /* 142.857% */
+}
+
+.GambarMobil{
+  flex-basis: 50%;
+}
+
+.gambarimgmobil{
+  z-index: 99;
+
+}
+
+.Gambar1{
+  flex-basis: 50%;
+}
+
+.list{
+  flex-basis: 50%;
 }
 
 .list-h3 {
@@ -71,6 +91,7 @@
   /* 142.857% */
 }
 
+
 .Deskripsi-Why-Us-h3 {
   color: #000;
   font-family: Helvetica;
@@ -89,6 +110,10 @@
   font-weight: 300;
   line-height: 20px;
   /* 142.857% */
+}
+
+.card {
+  margin-right: 15px;
 }
 
 .card-list-h4 {
@@ -111,6 +136,12 @@
   font-weight: 300;
   line-height: 20px;
   /* 142.857% */
+}
+
+.testi-card{
+
+  width: 619px;
+  
 }
 
 .Pendapat-Testimoni {
@@ -164,6 +195,17 @@
   /* 142.857% */
 }
 
+.list-pertanyaan {
+  color: #000;
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  /* 142.857% */
+}
+
 .footer {
   color: #000;
   /* Body/14/Light */
@@ -180,34 +222,27 @@
 }
 
 .Pertanyaan {
-  flex-basis: 35%;
+  width: 80%;
 }
 
-.list-pertanyaan{
-  flex-basis: 65%;
-  padding-left: 20px;
+.accordion-header {
+  border-radius: 4px;
+  border: 1px solid #D4D4D4;
+  background: #FFF;
+  width: 668px;
+  height: 3.5rem;
+  margin: 1rem 0rem;
 }
 
-.main-content{
-  margin-top: 100px;
+.carouselExample {
+  border-radius: 8px;
+  background: #F1F3FF;
+  /* Shadow/Low */
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+  width: 619px;
+  height: 270px;
+  flex-shrink: 0;
 }
-.GambarMobil{
-  display: flex;
-  justify-content: end;
-}
-  /* Margin atas untuk gambar */
-  .gambarimgmobil {
-    position: relative;
-    z-index: 99;
-  }
-
-    /* if(screen <=820px {
-        .gambarimgmobil {
-          width: 200px;
-        }
-      }
-
-    ) */
 
 @media screen and (max-width: 992px) {
   .gambarimgmobil {
@@ -221,9 +256,7 @@
   }
 }
 
-@media screen and (max-width: 769px) {
-  
-}
+@media screen and (max-width: 769px) {}
 
 
 /* CSS Responsif */
