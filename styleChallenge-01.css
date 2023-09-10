@@ -82,6 +82,9 @@ line-height: 36px;
   line-height: 20px; /* 142.857% */
 }
 
+.card{
+margin-right: 15px;
+}
 .card-list-h4{
   color: #000;
   /* Title/16/Bold */
@@ -194,9 +197,27 @@ width: 80%;
   height: 270px;
   flex-shrink: 0;
 }
+@media screen and (max-width: 992px) {
+  .gambarimgmobil {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gambarimgmobil {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  
+}
+
+
 /* CSS Responsif */
 /* CSS Responsif */
 @media screen and (max-width: 768px) {
+
   /* Navbar */
   .navbar-nav {
     flex-direction: column;
@@ -219,8 +240,5 @@ width: 80%;
     margin-bottom: 20px;
   }
 
-  /* Margin atas untuk gambar */
-  .GambarMobil {
-    margin-top: 20px;
-  }
+
 }
