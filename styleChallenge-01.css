@@ -65,6 +65,10 @@
   flex-basis: 50%;
 }
 
+.Gambar1 img{
+  width: 370px;
+}
+
 .list{
   flex-basis: 50%;
 }
@@ -276,6 +280,21 @@
     min-width: 300px;
   }
 
+  .owl-carousel__nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .owl-carousel__nav>div {
+    background: #aba9a9;
+    color: #fff;
+    padding: 8px 15px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
 
   html {
@@ -355,7 +374,16 @@
     background: #f44336 !important;
   }
 
+
+  .carddesc{
+    width: 15rem;
+  }
+
 @media screen and (max-width: 992px) {
+    .Mobil {
+      padding: 0;
+    }
+    
   .gambarimgmobil {
     width: 400px;
   }
@@ -369,7 +397,7 @@
     }
 
     .Gambar1 img{
-      width: 90%;
+      width: 270px;
     }
 }
 
@@ -379,13 +407,25 @@
   }
 }
 
-@media screen and (max-width: 769px) {}
+@media screen and (max-width: 769px) {
+  .sewa-banner{
+    width: 500px !important; 
+  }
+}
 
 
 /* CSS Responsif */
 /* CSS Responsif */
 @media screen and (max-width: 768px) {
 
+  .carddesc {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .card-list .list-flex{
+    flex-wrap: nowrap;
+  }
   /* Navbar */
   .navbar-nav {
     flex-direction: column;
@@ -407,6 +447,11 @@
   .Mobil {
     margin-bottom: 20px;
   }
-
-
 }
+
+@media screen and (max-width: 576px) {
+  .Mobil{
+    padding: 0;
+  }
+}
+
