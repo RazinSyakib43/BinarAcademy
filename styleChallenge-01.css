@@ -1,29 +1,34 @@
 .body {
   margin: 0px;
-} 
+}
 
-.header{
-    background-color:#F1F3FF;
-  }
+.header {
+  background-color: #F1F3FF;
+}
 
-.navbar-brand{
+.margin-section{
+  margin-top: 100px;
+}
+
+.navbar-brand {
   width: 110px;
   height: 38px;
   background-color: blue;
 }
 
-.nav-link{
+.nav-link {
   color: #000;
   font-family: Helvetica;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; 
-  }
+  line-height: 20px;
+}
 
-.Mobil{
-padding-left: 100px;
-right: 100px;
+.Mobil {
+  padding-left: 100px;
+  right: 100px;
+  flex-basis: 50%;
 }
 
 .Mobil-h1 {
@@ -32,7 +37,8 @@ right: 100px;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 150%; /* 54px */
+  line-height: 150%;
+  /* 54px */
 }
 
 .Mobil-p {
@@ -42,75 +48,110 @@ right: 100px;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
+  /* 142.857% */
 }
 
-.list-h3{
+.GambarMobil{
+  flex-basis: 50%;
+}
+
+.gambarimgmobil{
+  z-index: 99;
+
+}
+
+.Gambar1{
+  flex-basis: 50%;
+}
+
+.list{
+  flex-basis: 50%;
+}
+
+.list-h3 {
   color: #000;
   /* Heading/24/Bold */
   font-family: Helvetica;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 36px; /* 150% */
+  line-height: 36px;
+  /* 150% */
 }
-.list-p{
+
+.list-p {
   color: #000;
   /* Body/14/Light */
   font-family: Helvetica;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
-  line-height: 20px; /* 142.857% */
-}
-.Deskripsi-Why-Us-h3{
-  color: #000;
-font-family: Helvetica;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 36px;
+  line-height: 20px;
+  /* 142.857% */
 }
 
-.Deskripsi-Why-Us-p{
+
+.Deskripsi-Why-Us-h3 {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.Deskripsi-Why-Us-p {
   color: #000;
   /* Body/14/Light */
   font-family: Helvetica;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
+  /* 142.857% */
+}
+.kumpulan-card{
+  width: 150rem;
+}
+.card {
+  margin-right: 15px;
 }
 
-.card{
-margin-right: 15px;
-}
-.card-list-h4{
+.card-list-h4 {
   color: #000;
   /* Title/16/Bold */
   font-family: Helvetica;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
+  /* 150% */
 }
 
-.card-list-p{
+.card-list-p {
   color: #000;
   /* Body/14/Light */
   font-family: Helvetica;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
+  /* 142.857% */
 }
 
-.Pendapat-Testimoni{
+.testi-card{
+
+  width: 619px;
+  
+}
+
+.Pendapat-Testimoni {
   color: #000;
   text-align: center;
 }
 
-.Pendapat-Testimoni-3{
+.Pendapat-Testimoni-3 {
   color: #000;
   text-align: center;
   /* Heading/24/Bold */
@@ -118,7 +159,8 @@ margin-right: 15px;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 36px; /* 150% */
+  line-height: 36px;
+  /* 150% */
 }
 
 .pendapat-Testimoni-p {
@@ -129,17 +171,19 @@ margin-right: 15px;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
+  /* 142.857% */
 }
 
-.Pertanyaan-h3{
+.Pertanyaan-h3 {
   color: #000;
   /* Heading/24/Bold */
   font-family: Helvetica;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 36px; /* 150% */
+  line-height: 36px;
+  /* 150% */
 }
 
 .Pertanyaan.p {
@@ -149,53 +193,63 @@ margin-right: 15px;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
+  /* 142.857% */
 }
 
-.list-pertanyaan{
+.list-pertanyaan {
   color: #000;
   /* Body/14/Light */
   font-family: Helvetica;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
+  /* 142.857% */
 }
 
-.footer{
+.footer {
   color: #000;
   /* Body/14/Light */
   font-family: Helvetica;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
+  /* 142.857% */
 }
 
-.button1{
+.button1 {
   right: 100px;
 }
 
-.Pertanyaan{
-width: 80%;
-}
-.accordion-header{
-  border-radius: 4px;
-  border: 1px solid #D4D4D4;
-  background: #FFF;
-  width: 668px;
-  height: 3.5rem;
-  margin: 1rem 0rem;
+.Pertanyaan {
+  width: 80%;
 }
 
-.carouselExample{
-  border-radius: 8px;
-  background: #F1F3FF;
-  /* Shadow/Low */
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
-  width: 619px;
-  height: 270px;
-  flex-shrink: 0;
+.conteudo {
+  width: 450px;
+}
+.carrousel {
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: auto;
+  gap: 1.2rem;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.carrousel::-webkit-scrollbar {
+display: none;
+}
+.card {
+  scroll-snap-align: start;
+  border-radius: 100px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+ width: 300rem;
 }
 @media screen and (max-width: 992px) {
   .gambarimgmobil {
@@ -209,9 +263,7 @@ width: 80%;
   }
 }
 
-@media screen and (max-width: 769px) {
-  
-}
+@media screen and (max-width: 769px) {}
 
 
 /* CSS Responsif */
